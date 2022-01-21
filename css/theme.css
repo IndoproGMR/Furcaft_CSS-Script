@@ -1,0 +1,40 @@
+:root {
+  --backround-dark: #212121;
+
+  --dark-text: #fff;
+  --light-text: #000;
+}
+body {
+  background-color: var(--dark-text);
+  color: var(--light-text);
+}
+
+.theme-dark {
+  background-color: var(--backround-dark);
+  color: var(--dark-text);
+}
+/* body.a.theme-dark {
+  color: var(--light-text);
+} */
+li {
+  color: #000;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: var(--dark-text);
+    color: var(--light-text);
+  }
+}
+
+.options {
+  cursor: pointer;
+}
+
+.imagat-low {
+  background-color: aquamarine;
+}
+
+.imaget-normal {
+  background-color: blue;
+}

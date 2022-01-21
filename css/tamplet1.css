@@ -1,0 +1,76 @@
+.nws,
+.ad {
+  background-color: rgba(52, 252, 52, 0.829);
+  border: 3px solid rgb(0, 51, 146);
+  text-align: center;
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+.fade-in.appear {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.dakanan {
+  transform: translateX(-50%);
+  transition: transform 300ms ease-in, opacity 300ms ease-in;
+  opacity: 0;
+}
+.dakiri{
+  transform: translateX(50%);
+  transition: transform 300ms ease-in, opacity 300ms ease-in;
+  opacity: 0;
+}
+
+.gbrf {
+  position: absolute;
+  left: 0rem;
+  height: 8.4rem;
+  width: 8.4rem;
+}
+.contener {
+  background-color: brown;
+  padding: auto;
+}
+.contener > * {
+  padding: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+  .adfoto {
+    position: absolute;
+    width: 10rem;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .slidesow {
+    background-color: blanchedalmond;
+    width: 60%;
+    border: 10px black;
+  }
+  .adv {
+    position: absolute;
+    top: 3rem;
+    right: 2rem;
+    background-color: aqua;
+  }
+  .adfoto {
+    background-color: aquamarine;
+    width: 27rem;
+  }
+
+  .berita {
+    background-color: blue;
+    float: left;
+    width: 60%;
+  }
+
+  .hot {
+    background-color: blueviolet;
+    position: absolute;
+    right: 1rem;
+    width: 35%;
+  }
+}

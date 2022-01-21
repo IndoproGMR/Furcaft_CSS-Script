@@ -1,0 +1,27 @@
+.a {
+  font-size: 0;
+}
+@media screen and (min-width: 850px) {
+  .pencarian {
+    height: 100%;
+    width: 12rem;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  .a {
+    font-family: "Lato", sans-serif;
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #818181;
+    display: block;
+  }
+  .a:hover {
+    color: aqua;
+  }
+}

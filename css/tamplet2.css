@@ -1,0 +1,34 @@
+.contener {
+  background-color: brown;
+}
+.slidesow {
+    background-color: blanchedalmond;
+    width: 60%;
+    border: 10px black;
+  }
+  .adv {
+    position: absolute;
+    top: 3rem;
+    right: 2rem;
+    background-color: aqua;
+  }
+  .adfoto {
+    background-color: aquamarine;
+    width: 27rem;
+  }
+
+  .berita {
+    background-color: blue;
+    float: left;
+    width: 60%;
+  }
+
+  .hot {
+    background-color: blueviolet;
+    position: absolute;
+    right: 1rem;
+    width: 35%;
+  }
+  .gbrf{
+    height: 100px;
+  }

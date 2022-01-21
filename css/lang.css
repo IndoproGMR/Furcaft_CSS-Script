@@ -1,0 +1,13 @@
+:root {
+  --aktif: 10px;
+  --off: 0px;
+}
+
+.lang-aktif {
+  font-size: var(--aktif);
+  opacity: 1;
+}
+.lang-off {
+  font-size: var(--off);
+  opacity: 0;
+}
